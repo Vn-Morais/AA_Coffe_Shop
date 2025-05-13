@@ -57,6 +57,7 @@ def verific_cad():
             cpf = int(input("Digite seu CPF: "))
             while cpf == "" or len(str(abs(cpf))) < 11:
                 cpf = int(input("CPF inválido, digite novamente: "))
+                break
             nome = str(input("Digite seu Nome "))
             card_disp()
             break
